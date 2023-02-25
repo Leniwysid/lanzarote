@@ -21,9 +21,7 @@ const Navbar = () => {
       className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-gray-600"
     >
       <div>
-        <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
-          LANZAROTE.
-        </h1>
+        <h1>LANZAROTE.</h1>
       </div>
       <ul className="hidden md:flex">
         <li>
