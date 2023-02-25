@@ -12,7 +12,10 @@ import c9 from "../assets/yaiza.jpg";
 
 const Cities = () => {
   return (
-    <div className="max-w-[1240px] mx-auto px-4 py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
+    <div
+      id="destinations"
+      className="max-w-[1240px] mx-auto px-4 py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-2"
+    >
       <CitiesCard bg={c1} text="Costa Teguise" />
       <CitiesCard bg={c2} text="Puerto del Carmen" />
       <CitiesCard bg={c3} text="Arrecife" />

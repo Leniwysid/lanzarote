@@ -4,7 +4,10 @@ import { MdOutlineTravelExplore } from "react-icons/md";
 
 const Booking = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 gap-4 grid lg:grid-cols-3">
+    <div
+      id="book"
+      className="max-w-[1240px] mx-auto py-32 px-4 gap-4 grid lg:grid-cols-3"
+    >
       <div className="lg:col-span-2 flex flex-col justify-evenly">
         <h1 className="uppercase">
           Choose from 50+ world class resorts & book an affordable all-inclusive

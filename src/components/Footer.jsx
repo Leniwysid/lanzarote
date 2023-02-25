@@ -19,13 +19,20 @@ const Footer = () => {
             <li>About</li>
             <li>Partnership</li>
             <li>Carrers</li>
-            <li>About</li>
           </ul>
           <ul className="text-right lg:flex">
-            <li>Destinations</li>
-            <li>Travel</li>
-            <li>Gallery</li>
-            <li>Book</li>
+            <li>
+              <a href="#destinations">Destinations</a>
+            </li>
+            <li>
+              <a href="#travel">Travel</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#book">Book</a>
+            </li>
           </ul>
         </div>
         <p className="mx-auto pt-8 mb-2">

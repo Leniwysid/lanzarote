@@ -5,9 +5,9 @@ import foto3 from "../assets/lan6.JPEG";
 import foto5 from "../assets/lan3.jpg";
 import foto4 from "../assets/lan5.JPEG";
 
-const Gallery = () => {
+const Travel = () => {
   return (
-    <div className="max-w-[1440px] mx-auto py-16 px-4 text-center">
+    <div id="travel" className="max-w-[1440px] mx-auto py-16 px-4 text-center">
       <h1>Visit us today!</h1>
       <p className="py-2">There are plenty of beautiful places...</p>
       <div className="grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4">
@@ -41,4 +41,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Travel;

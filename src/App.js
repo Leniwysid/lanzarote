@@ -3,7 +3,7 @@ import Booking from "./components/Booking";
 import Carousel from "./components/Carousel";
 import Cities from "./components/Cities";
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
+import Travel from "./components/Travel";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -12,7 +12,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <Gallery />
+      <Travel />
       <Booking />
       <Cities />
       <Carousel />
