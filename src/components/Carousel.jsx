@@ -39,7 +39,7 @@ const Carousel = () => {
   return (
     <div
       id="gallery"
-      className="max-w-[1440px] mx-auto px-4 py-8 relative flex justify-content items-center"
+      className="max-w-[1440px] mx-auto px-4 py-16 relative flex justify-content items-center"
     >
       <BsArrowLeftSquareFill
         onClick={prevSlide}

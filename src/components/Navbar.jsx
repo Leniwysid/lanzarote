@@ -94,7 +94,6 @@ const Navbar = () => {
               to="destinations"
               spy={true}
               smooth={true}
-              offset={50}
               duration={500}
               className="cursor-pointer"
             >
@@ -106,7 +105,6 @@ const Navbar = () => {
               to="travel"
               spy={true}
               smooth={true}
-              offset={50}
               duration={500}
               className="cursor-pointer"
             >
@@ -118,7 +116,6 @@ const Navbar = () => {
               to="gallery"
               spy={true}
               smooth={true}
-              offset={50}
               duration={500}
               className="cursor-pointer"
             >
@@ -130,7 +127,6 @@ const Navbar = () => {
               to="book"
               spy={true}
               smooth={true}
-              offset={50}
               duration={500}
               className="cursor-pointer"
             >
