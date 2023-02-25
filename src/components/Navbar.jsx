@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { BsPerson } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -23,16 +24,52 @@ const Navbar = () => {
       </div>
       <ul className="hidden md:flex">
         <li>
-          <a href="#destinations">Destinations</a>
+          <Link
+            to="destinations"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="cursor-pointer"
+          >
+            Destination
+          </Link>
         </li>
         <li>
-          <a href="#travel">Travel</a>
+          <Link
+            to="travel"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="cursor-pointer"
+          >
+            Travel
+          </Link>
         </li>
         <li>
-          <a href="#gallery">Gallery</a>
+          <Link
+            to="gallery"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="cursor-pointer"
+          >
+            Gallery
+          </Link>
         </li>
         <li>
-          <a href="#book">Book</a>
+          <Link
+            to="book"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="cursor-pointer"
+          >
+            Book
+          </Link>
         </li>
       </ul>
       <div className="hidden md:flex">
@@ -53,16 +90,52 @@ const Navbar = () => {
         <ul>
           <h1>LANZAROTE.</h1>
           <li className="border-b">
-            <a href="#destinations">Destinations</a>
+            <Link
+              to="destinations"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Destination
+            </Link>
           </li>
           <li className="border-b">
-            <a href="#travel">Travel</a>
+            <Link
+              to="travel"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Travel
+            </Link>
           </li>
           <li className="border-b">
-            <a href="#gallery">Gallery</a>
+            <Link
+              to="gallery"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Gallery
+            </Link>
           </li>
           <li className="border-b">
-            <a href="#book">Book</a>
+            <Link
+              to="book"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="cursor-pointer"
+            >
+              Book
+            </Link>
           </li>
           <div className="flex flex-col">
             <button className="my-4">Search</button>

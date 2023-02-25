@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -22,16 +23,52 @@ const Footer = () => {
           </ul>
           <ul className="text-right lg:flex">
             <li>
-              <a href="#destinations">Destinations</a>
+              <Link
+                to="destinations"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="cursor-pointer"
+              >
+                Destination
+              </Link>
             </li>
             <li>
-              <a href="#travel">Travel</a>
+              <Link
+                to="travel"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="cursor-pointer"
+              >
+                Travel
+              </Link>
             </li>
             <li>
-              <a href="#gallery">Gallery</a>
+              <Link
+                to="gallery"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="cursor-pointer"
+              >
+                Gallery
+              </Link>
             </li>
             <li>
-              <a href="#book">Book</a>
+              <Link
+                to="book"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                className="cursor-pointer"
+              >
+                Book
+              </Link>
             </li>
           </ul>
         </div>
