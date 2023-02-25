@@ -52,11 +52,18 @@ const Navbar = () => {
       >
         <ul>
           <h1>LANZAROTE.</h1>
-          <li className="border-b">Home</li>
-          <li className="border-b">Destinations</li>
-          <li className="border-b">Travel</li>
-          <li className="border-b">View</li>
-          <li className="border-b">Book</li>
+          <li className="border-b">
+            <a href="#destinations">Destinations</a>
+          </li>
+          <li className="border-b">
+            <a href="#travel">Travel</a>
+          </li>
+          <li className="border-b">
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li className="border-b">
+            <a href="#book">Book</a>
+          </li>
           <div className="flex flex-col">
             <button className="my-4">Search</button>
             <button>Account</button>
